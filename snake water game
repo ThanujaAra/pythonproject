@@ -1,0 +1,104 @@
+# snake water gun
+
+import random
+
+round=0
+
+Userpoint=0
+
+Computerpoint=0
+
+while round<10:
+
+list=["Snake", "Water", "Gun"]
+
+choice-random.choice(list)
+
+user_input=input("Enter s for snake, w for
+
+water, g for gun: ")
+
+if user_input=="s" and choice=="Water":
+
+Userpoint+=1 round+=1
+
+elif user_input=="s" and choice=="Gun": Computerpoint+=1
+
+round+=1
+
+elif user_input=="s" and choice=="Snake
+
+Computerpoint+=0
+
+Userpoint+=0
+
+round+=1
+
+elif user_input=="w" and choice=="Water":
+
+Computerpoint += 0 Userpoint += 0
+
+round += 1
+
+elif user_input=="w" and choice=="Gun":
+
+Userpoint+=1
+
+round += 1
+
+elif user_input=="w" and choice=="Snake":
+
+Computerpoint += 1
+
+round += 1
+
+elif user_input=="g" and choice=="Water":
+
+Computerpoint += 1
+
+round += 1
+
+elif user_input=="g" and choice=="Water":
+
+Computerpoint += 1
+
+round += 1
+
+elif user_input=="g" and choice=="Snake":
+
+Userpoint += 1
+
+round += 1
+
+else:
+
+Computerpoint += 0
+
+Userpoint += 0
+
+round += 1
+
+if Userpoint>Computerpoint:
+
+print("Well done, You have won the game!
+
+Your point is "+ str(Userpoint))
+
+elif Userpoint==Computerpoint: print("Match is draw")
+
+else:
+
+print("Sorry You lost the game! Try again")
+
+
+
+
+
+
+
+
+
+
+
+
+
